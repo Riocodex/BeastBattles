@@ -7,6 +7,8 @@ import { Dropdown } from 'react-bootstrap';
 import './styles.scss';
 import logo from '../../assets/images/logo/logo.png';
 import logodark from '../../assets/images/logo/logo_dark.png';
+import logoBB from '../../assets/images/logo/bb_dark.svg';
+import logodarkBB from '../../assets/images/logo/bb_light.svg';
 
 import DarkMode from './DarkMode';
 
@@ -47,8 +49,8 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <img id="logo_header" className='logo-dark' src={logodark} alt="BeastBattles" />
-                                            <img id="logo_header" className='logo-light' src={logo} alt="Binasea" />
+                                            <img id="logo_header" className='logo-dark' src={logoBB} alt="BeastBattles" />
+                                            <img id="logo_header" className='logo-light' src={logodarkBB} alt="Binasea" />
                                         </Link>
                                     </div>
                                 </div>
