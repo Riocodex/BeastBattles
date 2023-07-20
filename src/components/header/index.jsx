@@ -49,7 +49,7 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <img id="logo_header" className='logo-dark' src={logoBB} alt="BeastBattles" />
+                                            <im id="logo_header" className='logo-dark' src={logoBB} alt="BeastBattles" />
                                             <img id="logo_header" className='logo-light' src={logodarkBB} alt="Binasea" />
                                         </Link>
                                     </div>
